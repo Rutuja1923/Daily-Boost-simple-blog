@@ -1,3 +1,6 @@
+body{
+    background-color: #f8f4e3 ;
+}
 #laziness{
     height: 200px;
     width: 300px;
@@ -17,3 +20,53 @@
     height: 200px;
     width: 250px;
 }
+
+h1{
+    color: rgb(2, 1, 72);
+    text-align: center;
+}
+
+header > nav > ul{
+    list-style: none;
+    text-align: center;
+}
+li > a{
+    color: rgb(4, 63, 173);
+}
+
+h2{
+    color: rgb(78, 4, 93);
+    text-align: center;
+}
+
+#home > p,
+#about > p{
+    color: rgb(41, 2, 77);
+    text-align: center;
+}
+h3{
+    color: purple;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;              
+}
+
+article{
+    background-color: #F5F3F5;
+    width: 700px;
+    padding:20px 30px;
+    margin: 10px 10px;
+    color: darkblue;
+}
+
+button{
+    background-color: aliceblue;
+}
+
+
+    
